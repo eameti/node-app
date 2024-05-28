@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  node-app:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-05-28T11:48:11.838027879+02:00"
+    description: A Helm chart for a Node.js project
+    digest: 4e82c607d1a815e60ff90b435d5b03cb983440c9cc68bb364892aaab63e82a30
+    name: node-app
+    type: application
+    urls:
+    - https://eameti.github.io/node-app/node-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-28T11:48:11.837640569+02:00"
