@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: eameti/node-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+
+ingress:
+  host: your-ingress-host.example.com
+
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
